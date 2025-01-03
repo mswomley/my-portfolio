@@ -1,7 +1,7 @@
 import React from 'react';
 import './pages/App.css';
 import ReactDOM from "react-dom/client";
-import {BrowserRouter as Router, Switch, Route, Routes, Link, BrowserRouter} from "react-router-dom";
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Home from "./pages/Home"
 import Projects from "./pages/Projects"
 
@@ -24,7 +24,7 @@ export default function App () {
       <a href="https://www.linkedin.com/in/maggie-s-5427491a2/"><button className="button" >LinkedIn</button></a><br></br>
       <a href="https://github.com/mswomley"><button className="button" >Github</button></a>
       </footer>
-</BrowserRouter>
+      </BrowserRouter>
   )
 }
 
