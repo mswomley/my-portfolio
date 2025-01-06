@@ -1,5 +1,4 @@
 import React from "react";
-import {BroswerRouter as Router, Switch, Route, Routes, Link} from "react-router-dom";
 
 
 function Projects () {
