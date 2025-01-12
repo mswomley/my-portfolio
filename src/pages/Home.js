@@ -1,21 +1,19 @@
 import React from "react";
-import me from './me.png'
+import scribble from './scribble.png'
+import arrows from './arrows.png'
 
 function Home () {
     return (
         <>
-        <div className="container">
-            <h1 className="title"> Maggie Swomley </h1>
-            <p className="about">
-                    <img className="me" src={me} alt="portrait" /><br></br><br></br>
-                    EDUCATION<br></br><br></br>
-                    MIT xPro Coding Bootcamp, Full Stack Web Development 2024<br></br><br></br>
-                    Occidental College, BA Biology, 2020<br></br><br></br>
-                    LANGUAGES<br></br><br></br>
-                    JavaScript, R, MATLAB<br></br><br></br>
-                    STACKS<br></br><br></br>
-                    MongoDB - Express - React - Node.js  (MERN)<br></br><br></br>
+        <div className="parent">
+            <p className="left">
+                    <div className="maggietitle"><p1>MAGGIE SWOMLEY</p1></div><br></br><br></br><br></br><br></br>
+                    <img className="scribble" src={scribble}></img>
                     </p>
+                    <p6 className="right">
+                    <img className="scribble" src={arrows}></img><br></br>
+                    WEB DEVELOPER<br></br>
+                    </p6>
         
         </div>
         </>
