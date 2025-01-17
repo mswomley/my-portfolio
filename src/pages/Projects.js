@@ -29,7 +29,7 @@ function Projects () {
                 <img className="scribble4" src={animals}></img>
                 <br></br>
                 <p2><a href="https://maggiecreates.netlify.app/"><button className="button1" >Visit Site</button></a></p2> 
-                
+                <br></br><br></br><br></br><br></br>
              </div>
         </div>
         

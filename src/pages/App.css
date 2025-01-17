@@ -105,11 +105,12 @@ color: rgb(0, 0, 0);
   height:10px; 
 }
 
-.projects {  display: grid;
-  grid-template-columns: 2 1fr;
-  grid-template-rows: 1.5fr .5fr;
-  gap: 25px 25px;
-  grid-auto-flow: row;
+.projects {  
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
   grid-template-areas:
     "left right";
   grid-area: projects;

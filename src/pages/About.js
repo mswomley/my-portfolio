@@ -1,6 +1,6 @@
 import React from "react";
 import scribble from './scribble.png'
-import arrows from './arrows.png'
+
 
 function Home () {
     return (
@@ -23,13 +23,12 @@ function Home () {
                     <a className="link" href="https://www.linkedin.com/in/margaret-s-5427491a2/">LinkedIn</a>
                  </p>
                     </p>
-        
         </div>
-                    </p6>
+                </p6>   
         
         </div>
         </>
-         );
+         )
 }
 
 export default Home;
